@@ -1,0 +1,63 @@
+body {
+    background-image: url(images/bg.png);
+    color: white;
+}
+
+img#rechteck{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:2;
+}
+
+
+
+div#bilder{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:3;
+
+}
+
+h2#pos{ 
+    margin-left: 70pt;
+    margin-top: 40pt;
+
+}
+
+h2{
+    margin-left: 70pt;
+    margin-top: -15pt;
+
+}
+
+#muschel1{
+    position: absolute;
+    bottom: 60px;  left: 90px;
+}
+
+#muschel2{
+    position: absolute;
+    left: 200px;  top: 170px;
+    width: 70px;
+    height: 64px;
+    background: url(images/muschel.png) no-repeat;
+}
+#muschel2:hover {
+    background: url(images/muschel_perle.png) no-repeat;
+}
+
+
+#muschel3{
+    position: absolute;
+    left: 350px;  bottom: 100px;
+}
+
+
+
+

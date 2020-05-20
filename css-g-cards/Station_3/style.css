@@ -1,0 +1,45 @@
+
+
+@font-face {
+    font-family: 'stabillomedium';
+    src: url('fonts/stabillo_medium-webfont.woff2') format('woff2'),
+         url('fonts/stabillo_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    font-family: 'stabillomedium';
+
+    background-image: url(images/bg.png);
+    color: white;
+    font-family: ;
+
+}
+
+img#rechteck{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:2;
+}
+
+div#schrift{
+
+    width:500px; height:300px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-250px; 
+    margin-top:-150px; 
+
+    z-index:3;
+}
+rem{
+    display: block;
+    margin-bottom: 12pt;
+    text-decoration: none;
+}

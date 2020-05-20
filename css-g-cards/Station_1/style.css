@@ -1,0 +1,52 @@
+body {
+    background-image: url(images/bg.png);
+    color: white;
+
+}
+
+
+img#rechteck{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:2;
+}
+
+div#schrift{
+    width:500px; height:300px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-250px; 
+    margin-top:-150px; 
+
+    z-index:3;
+}
+rem{
+    display: block;
+    margin-bottom: 12pt;
+    text-decoration: none;
+}
+
+div#bilder{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:3;
+
+}
+
+#penguin{
+    position: absolute;
+    right: -80px;
+    bottom: 20px;
+}
+
+#shell{
+    position: absolute;
+    left: -50px;
+    bottom: -30px;
+}

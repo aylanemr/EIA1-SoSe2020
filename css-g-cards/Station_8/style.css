@@ -1,0 +1,84 @@
+body {
+    background-image: url(images/bg.png);
+    color: white;
+}
+
+img#rechteck{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:2;
+}
+
+
+
+div#schrift{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:300;
+
+}
+
+
+div#animation{
+    width:600px; height:400px; 
+    position:absolute; 
+    left:50%; top:50%; 
+    margin-left:-300px; 
+    margin-top:-200px; 
+    z-index:100;
+
+}
+
+
+
+.padding{
+    padding: 20px 40px 0px 40px;
+    z-index: 2000;
+}
+
+img#bandrole{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+#mu {
+    left: 80px;
+    top: 0px;
+    position: absolute;
+    animation: bild 5s infinite;
+    animation-timing-function: linear;
+  }
+
+  #mu-pe{
+    left: 230px;
+    top: 0px;
+    position: absolute;
+    animation: bild 5s infinite;
+    animation-timing-function: linear;
+  }
+
+
+  #mu2 {
+    left: 450px;
+    top: 0px;
+    position: absolute;
+
+    animation: bild 5s infinite;
+    animation-timing-function: linear;
+  }
+
+
+  
+  @keyframes bild {   
+
+    from {top: 0px; }
+    to {top: 330px; }
+  }

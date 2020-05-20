@@ -137,6 +137,7 @@ img.portfolio{
 
 form{
     text-align: left;
+
 }
 
 #absenden{
@@ -145,11 +146,12 @@ form{
 }
 
 input {
+    display: block;
     width: 20%;
     padding: 8px;
     background-color:#cccccc;
-    border: none;
     margin: 4px;
+    border: none;
 
   }
   
