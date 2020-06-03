@@ -15,13 +15,15 @@ var au18:number=2100.5;
 // Gesamtemission
 var welt18:number=af18+sa18+eu18+na18+as18+au18;
 
+console.log(welt18)
+
 // Emission im Vergleich zu Welt
-var af18zuwelt:number=100/welt18*af18;
-var sa18zuwelt:number=100/welt18*sa18;
-var eu18zuwelt:number=100/welt18*eu18;
-var na18zuwelt:number=100/welt18*na18;
-var as18zuwelt:number=100/welt18*as18;
-var au18zuwelt:number=100/welt18*au18;
+var af18zuwelt:number=100*af18/welt18;
+var sa18zuwelt:number=100*sa18/welt18;
+var eu18zuwelt:number=100*eu18/welt18;
+var na18zuwelt:number=100*na18/welt18;
+var as18zuwelt:number=100*as18/welt18;
+var au18zuwelt:number=100*au18/welt18;
 
 
 // Kontrollrechnung ob das Gesamtergebnis 100% ergibt
