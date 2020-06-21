@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right, #26c5c5, #006699);
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    font-size: 33pt;
+}
+
+#drumpad{
+    height: 510px;
+    width: 510px;
+    margin: auto; text-align: center;
+
+}
+
+button {
+
+    background-color: #fff;
+    opacity: 0.5;
+    display: inline-block;
+    cursor: pointer;
+    border-style: none;
+
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 7px;
+    
+}
+
+button:active, i:active{
+    transform: translateY(3.33px);
+}
+
+i:hover, button:hover{
+    opacity: 1;
+}
+
+#play{
+    font-size: 80pt;
+}
+
+#mikro{
+    color: green;
+}
+
+i{
+    opacity: 0.5;   
+    cursor: pointer;
+    font-size: 45pt;
+    margin:0px 30px 30px 30px;
+}
