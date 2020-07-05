@@ -1,3 +1,5 @@
+// Hilfe von Oliver
+
 /**
  * Die ToDos werden in dem Array todosText gespeichert
  * Jedes ToDo hat aber, neben dem ToDo-Text, einen zweiten
@@ -23,11 +25,11 @@ var todoliste: Todolisteintrag [] = [
         todosChecked: true
     },
     {
-        todoText: "jskljl",
+        todoText: "Ipsum",
         todosChecked: false
     },
     {
-        todoText: "fkfhk",
+        todoText: "Dolor",
         todosChecked: false
     }
 ];
