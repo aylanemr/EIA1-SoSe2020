@@ -1,5 +1,3 @@
-// Hilfe von Oliver
-
 /**
  * Die ToDos werden in dem Array todosText gespeichert
  * Jedes ToDo hat aber, neben dem ToDo-Text, einen zweiten
@@ -137,7 +135,7 @@ function updateCounter(): void {
         }
     }
     erledigtDOMElement.innerHTML = counterchecked + " bereits erledigt";
-    offenDOMElement.innerHTML = nochzuerledigen + " noch offen";
+    offenDOMElement.innerHTML = nochzuerledigen + "noch offen";
 }
 
 /**
@@ -218,4 +216,3 @@ function deleteTodo(index: number): void {
      */
     drawListToDOM();
 }
-

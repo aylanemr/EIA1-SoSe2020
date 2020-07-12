@@ -57,4 +57,4 @@ window.addEventListener("load", function () {
     ];
     artyom.addCommands(myGroup);
 });
-//# sourceMappingURL=playgroud-artyom-script.js.map
+//# sourceMappingURL=playground-artyom.js.map
